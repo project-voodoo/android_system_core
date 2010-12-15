@@ -337,8 +337,8 @@ static int create_subprocess(const char *cmd, const char *arg0, const char *arg1
 #define SHELL_COMMAND "/bin/sh"
 #define ALTERNATE_SHELL_COMMAND ""
 #else
-#define SHELL_COMMAND "/system/bin/sh"
-#define ALTERNATE_SHELL_COMMAND "/sbin/sh"
+#define SHELL_COMMAND "/bin/sh"
+#define ALTERNATE_SHELL_COMMAND ""
 #endif
 
 int service_to_fd(const char *name)
